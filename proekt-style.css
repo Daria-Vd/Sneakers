@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 48px;
+    margin: 24px 0;
+}
+
+h3 {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 26px;
+}
+
+p {
+    font-family: "Anonymous Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #F1F1F1;
+    margin: 0;
+}
+
+.header {
+    background-color: white;
+}
+
+.main {
+    margin: auto;
+    width: 1161px;
+}
+
+.footer {
+    background-color: #121723;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.container {
+    margin: 12px 0;
+    width: 371px;
+    height: auto;
+    background-color: white;
+    border-radius: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img {
+    margin: 5px 5px 0 5px;
+    width: 371px;
+}
+
+.container__image {
+    margin: 0;
+    width: 365px;
+    height: 254px;
+}
+
+.logo {
+    width: 212px;
+    height: 63px;
+    margin: 24px 0;
+}
+
+.logo-footer {
+    width: 300px;
+    height: 22px;
+    margin: 24px 0;
+}
+
+li {
+    display: inline-block;
+    font: 700 20px "Anonymous Pro", sans-serif;
+    list-style-type: none;
+}
+
+nav ul {
+    width: 262px;
+    height: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 1161px;
+}
+
+#down {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #A1A6B4;
+}
+.row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container__title {
+    margin: 0;
+}
+
+.container__text {
+    margin: 10px 0 0 0;
+
+}
+
+.border {
+    border-bottom: solid 1px #ffffff60;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 1161px;
+}
+
+.text_box {
+    width: 323px;
+    padding: 32px 24px;
+}
