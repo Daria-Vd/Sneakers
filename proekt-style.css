@@ -51,7 +51,7 @@ body {
     background-color: #121723;
     color: white;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .container {
@@ -123,6 +123,7 @@ nav ul {
     justify-content: center;
     font-size: 16px;
     color: #A1A6B4;
+    margin-bottom: 0;
 }
 .row {
     display: flex;
@@ -136,7 +137,6 @@ nav ul {
 
 .container__text {
     margin: 10px 0 0 0;
-
 }
 
 .border {
