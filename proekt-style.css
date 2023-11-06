@@ -65,6 +65,12 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transition: all 0.5s cubic-bezier(.38,-0.83,.58,1.61);
+}
+
+.container:hover {
+    box-shadow: 10px 10px 13px 0 rgba(0, 0, 0, 0.25);
+    margin-top: -15px;
 }
 
 img {
@@ -133,6 +139,11 @@ nav ul {
 
 .container__title {
     margin: 0;
+    transition: font-size 0.5s cubic-bezier(.38,-0.83,.58,1.61);
+}
+
+.container__title:hover {
+    font-size: 35px;
 }
 
 .container__text {
