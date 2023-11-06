@@ -79,32 +79,32 @@ body {
     flex-direction: column;
 }
 
-.container-2 {
+.container-text {
     display: flex;
     text-align: left;
     justify-content: left;
     flex-direction: column;
 }
 
-.container-3 {
+.container-company-description {
     width: 506px;
     height: auto;
     line-height: 28px;
 }
 
-.container-4 {
+.container-sneaker-description {
     width: 506px;
     height: 258px;
 }
 
-.container-5 {
+.container-table {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
     gap: 32px;
 }
 
-.container-6 {
+.container-p {
     display: flex;
     justify-content: space-between;
     padding: 0 0 25px 0;
