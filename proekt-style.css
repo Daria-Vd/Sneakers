@@ -1,3 +1,77 @@
+@media screen and (max-width: 768px){
+    body {
+        max-width: 375px;
+    }
+    .main {
+        padding: 0 16px 0 16px;
+        max-width: 343px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container {
+        width: 343px;
+    }
+    .container__image {
+        width: 343px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 375px;
+    }
+    .nav-container-2 {
+        display: flex;
+        justify-content: center;
+        max-width: 375px;
+        height: auto;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .header {
+        padding-bottom: 24px;
+        max-width: 375px;
+    }
+    .h1 {
+        font-size: 32px;
+    }
+    .border {
+        max-width: 343px;
+    }
+    .border-2 {
+        max-width: 375px;
+        margin-top: 24px;
+    }
+    .footer {
+        max-width: 375px;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @font-face {
     font-family: "Anonymous Pro";
     src: url(fonts/AnonymousPro-Bold.ttf);
