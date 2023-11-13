@@ -71,6 +71,7 @@
     }
     .footer {
         max-width: 375px;
+        height: 150px;
     }
 }
 
@@ -289,5 +290,14 @@ nav ul {
     }
     .p {
         font-size: 15px;
+    }
+    .logo-footer {
+        margin: 15px;
+    }
+    .border {
+        margin-top: 24px;
+    }
+    #down {
+        margin-top: 24px;
     }
 }
