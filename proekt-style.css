@@ -144,7 +144,7 @@ body {
 
 .container:hover {
     box-shadow: 10px 10px 13px 0 rgba(0, 0, 0, 0.25);
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 img {
